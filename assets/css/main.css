@@ -3574,6 +3574,7 @@ input, select, textarea {
 			padding: 1rem 1.75rem;
 			text-transform: uppercase;
 			visibility: visible;
+			border-radius: 10px;
 		}
 
 			#header .logo:hover {
@@ -4383,22 +4384,13 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #ffffff;
-		position: relative;
-		color: rgba(255, 255, 255, 0.25);
-		cursor: default;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 0.8rem;
-		font-weight: 900;
-		letter-spacing: 0.075em;
-		line-height: 1.5;
 		text-align: center;
 		text-transform: uppercase;
 		margin: 4rem auto 8rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
-		z-index: 2;
-	}
+		z-index: 2; */
+	
 
 		#copyright input, #copyright select, #copyright textarea {
 			color: #ffffff;
@@ -4481,7 +4473,7 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-		}
+		}}
 
 /* Nav Panel */
 
@@ -4687,3 +4679,18 @@ input, select, textarea {
 		}
 
 	}
+
+.footer {
+	display: flex;
+	/* flex-direction: column; */
+	background-color: #000;
+	color: #fff;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	top: 250px;
+}
+
+h3 {
+	color: white;
+}
